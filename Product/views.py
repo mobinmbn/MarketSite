@@ -17,6 +17,10 @@ class RequestDemoView(TemplateView):
     template_name = "request-demo.html"
 
 
+class LoginView(TemplateView):
+    template_name = "login.html"
+
+
 def product_view(request):
     products = Product.objects.all()
     context = {

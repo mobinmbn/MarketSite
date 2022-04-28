@@ -320,7 +320,7 @@
                 </div>
 
                 <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-                    <a href="login.html" class="btn btn-link text-decoration-none me-2">ورود</a>
+                    <a href="{% url 'login' %}" class="btn btn-link text-decoration-none me-2">ورود</a>
                     <a href="{% url 'request demo' %}" class="btn btn-primary">درخواست</a>
                 </div>
 
@@ -574,8 +574,8 @@
                             </li>
                         </ul>
                         <div class="action-btns mt-4 pe-3">
-                            <a href="login.html" class="btn btn-outline-primary me-2">ورود</a>
-                            <a href="request-demo.html" class="btn btn-primary">درخواست</a>
+                            <a href="{% url 'login' %}" class="btn btn-outline-primary me-2">ورود</a>
+                            <a href="{% url 'request demo' %}" class="btn btn-primary">درخواست</a>
                         </div>
                     </div>
 
