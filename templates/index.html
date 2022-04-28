@@ -1,0 +1,936 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <body>
+
+    <!--hero section start-->
+    <section
+            class="hero-section ptb-120 min-vh-100 d-flex align-items-center bg-dark text-white position-relative overflow-hidden"
+            style="background: url('{% static "assets/img/page-header-bg.svg" %}')no-repeat bottom right">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content-wrap">
+                        <h5 class="text-warning">#1 شرکت نرم افزاری در جهان</h5>
+                        <h1 class="fw-bold display-5">ویژگی پیشرفته برای رشد کسب و کار شما</h1>
+                        <p class="lead">به طور فعال هماهنگ سازندگان کیفیت کیفیت کیفیت زنجیره های تامین می شود خدمات وب
+                            سایت مشتری مرکزی.</p>
+                        <div class="action-btns mt-5">
+                            <a href="request-demo.html" class="btn btn-primary me-3">درخواست برای پیشنمایش</a>
+                            <a href="about-us.html" class="btn btn-outline-light">بیشتر بدانید</a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-lg-start mt-60">
+                        <h6 class="text-white-70 mb-2">مشتریان برتر ما</h6>
+                        <div class="col-4 col-sm-3 my-2 ps-lg-0">
+                            <img src="{% static 'assets/img/clients/client-1.svg' %}" alt="client" class="img-fluid">
+                        </div>
+                        <div class="col-4 col-sm-3 my-2">
+                            <img src="{% static 'assets/img/clients/client-2.svg' %}" alt="client" class="img-fluid">
+                        </div>
+                        <div class="col-4 col-sm-3 my-2">
+                            <img src="{% static 'assets/img/clients/client-3.svg' %}" alt="client" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8 mt-5 mt-lg-0">
+                    <div class="animated-img-wrap">
+                        <!--animated shape start-->
+                        <ul class="animate-element parallax-element animated-hero-1">
+                            <li class="layer" data-depth="0.02">
+                                <img src="{% static 'assets/img/screen/animated-screen-2.svg' %}" alt="shape"
+                                     class="img-fluid position-absolute type-0">
+                            </li>
+                        </ul>
+                        <!--animated shape end-->
+                        <img src="{% static 'assets/img/screen/animated-screen-1.svg' %}" alt="shape"
+                             class="position-relative img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--hero section end-->
+
+    <!--promo section start-->
+    <section class="promo-section ptb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-heading text-center">
+                        <h2>ما به شما کمک می کنیم که متصل باشید</h2>
+                        <p>به طور پویا شروع به کار در بازار را با کلیک بر روی فناوری کلیک کنید و تعویض داده های قانع
+                            کننده برای بازارها.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="promo-single position-relative text-center bg-white custom-shadow rounded-custom p-5 mb-4">
+                        <div class="promo-icon mb-32">
+                            <i class="fas fa-wifi text-primary fa-3x"></i>
+                        </div>
+                        <div class="promo-info">
+                            <h3 class="h5">در ارتباط باش</h3>
+                            <p class="mb-0">تعاملی به طور تعاملی منابع به حداکثر رساندن پورتال مدل های عمودی سیستم های
+                                قابل نگهداری.</p>
+                        </div>
+                        <!--pattern start-->
+                        <div class="dot-shape-bg position-absolute z--1 right--0 top--40">
+                            <img src="{% static 'assets/img/shape/dot-big-square.svg' %}" alt="shape">
+                        </div>
+                        <!--pattern end-->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="promo-single position-relative text-center bg-white custom-shadow rounded-custom p-5 mb-4">
+                        <div class="promo-icon mb-32">
+                            <i class="fas fa-user-friends text-success fa-3x"></i>
+                        </div>
+                        <div class="promo-info">
+                            <h3 class="h5">مشارکت را تشویق کنید</h3>
+                            <p class="mb-0">تعاملی به طور تعاملی منابع به حداکثر رساندن پورتال مدل های عمودی سیستم های
+                                قابل نگهداری.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="promo-single position-relative text-center bg-white custom-shadow rounded-custom p-5 mb-4">
+                        <div class="promo-icon mb-32">
+                            <i class="fas fa-bezier-curve text-danger fa-3x"></i>
+                        </div>
+                        <div class="promo-info">
+                            <h3 class="h5">ساخت اتصالات</h3>
+                            <p class="mb-0">تعاملی به طور تعاملی منابع به حداکثر رساندن پورتال مدل های عمودی سیستم های
+                                قابل نگهداری.</p>
+                        </div>
+                        <!--pattern start-->
+                        <div class="dot-shape-bg position-absolute z--1 left--40 bottom--40">
+                            <img src="{% static 'assets/img/shape/dot-big-square.svg' %}" alt="shape">
+                        </div>
+                        <!--pattern end-->
+                    </div>
+                </div>
+            </div>
+            <div class="customer-section pt-60">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-12">
+                            <div class="customer-logos-grid text-center">
+                                <img src="{% static 'assets/img/clients/client-logo-1.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                                <img src="{% static 'assets/img/clients/client-logo-2.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                                <img src="{% static 'assets/img/clients/client-logo-3.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                                <img src="{% static 'assets/img/clients/client-logo-4.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                                <img src="{% static 'assets/img/clients/client-logo-5.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                                <img src="{% static 'assets/img/clients/client-logo-6.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                                <img src="{% static 'assets/img/clients/client-logo-7.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                                <img src="{% static 'assets/img/clients/client-logo-8.svg' %}" width="150"
+                                     alt="clients logo" class="img-fluid p-1 px-md-2 p-lg-3 m-auto">
+                            </div>
+                            <p class="text-center mt-5 mb-0 h6">اعتماد بیش از 25،00 شرکت در سراسر جهان</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--promo section end-->
+
+    <!--feature tab section start-->
+    <section class="feature-tab-section ptb-120 bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-content-center">
+                <div class="col-md-10 col-lg-6">
+                    <div class="section-heading text-center">
+                        <h4 class="h5 text-primary">ویژگی‌ها</h4>
+                        <h2>ویژگی های پیشرفته پیشرفته</h2>
+                        <p>به طور پویا موقعیت بازار را با کلیک بر روی تکنولوژی کلیک و ملات آغاز می کند
+                            به تدریج قانع کننده است.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav justify-content-center feature-tab-list-2 mb-0" id="nav-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1"
+                               role="tab" aria-selected="false">
+                                هوش مصنوعی
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab-2" data-bs-toggle="tab" data-bs-target="#tab-2" role="tab"
+                               aria-selected="false">
+                                قدرت اتوماسیون
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tab-3" data-bs-toggle="tab" data-bs-target="#tab-3" role="tab"
+                               aria-selected="false">
+                                فن آوری پیشرفته
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade pt-60 active show" id="tab-1" role="tabpanel">
+                            <div class="row justify-content-center align-items-center justify-content-around">
+                                <div class="col-lg-5">
+                                    <div class="feature-tab-info">
+                                        <h3>هوش مصنوعی</h3>
+                                        <p>پهنای باند موثر شبکه در حالی که طرح های هدف گرا است.
+                                            به طور ذاتی مشارکت هم افزایی شرکت با کارهای دقیق آجر و مهارت های رهبری. </p>
+                                        <p>به راحتی توسعه نوآورانه نوآورانه برای
+                                            ویژگی های فعالبه طور پویا هماهنگ شده است
+                                            پس از پتانسیل های مجازی، زیرساخت های چند رشته ای را درایو می کنند.</p>
+                                        <a href="about-us.html"
+                                           class="read-more-link text-decoration-none mt-4 d-block">بیشتر درباره ما
+                                            بدانید
+                                            <i class="far fa-arrow-left ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <img src="{% static 'assets/img/screen/widget-12.png' %}" alt="feature tab"
+                                         class="img-fluid mt-4 mt-lg-0 mt-xl-0">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade pt-60" id="tab-2" role="tabpanel">
+                            <div class="row justify-content-center align-items-center justify-content-around">
+                                <div class="col-lg-5">
+                                    <img src="{% static 'assets/img/screen/widget-8.png' %}" alt="feature tab"
+                                         class="img-fluid mb-4 mb-lg-0 mb-xl-0">
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="feature-tab-info">
+                                        <h3>قدرت اتوماسیون</h3>
+                                        <p>به راحتی توسعه نوآورانه نوآورانه برای
+                                            ویژگی های فعالبه طور پویا هماهنگ شده است
+                                            همکاری شرکتی
+                                            پس از پتانسیل های مجازی</p>
+                                        <p>پهنای باند موثر شبکه در حالی که طرح های هدف گرا است.
+                                            به طور ذاتی با متا خدمات دقیق.
+                                            به طرز وحشیانه ای کار موازی آجر و کلیک می کند مهارت های رهبری با
+                                            انقلابی </p>
+                                        <a href="about-us.html"
+                                           class="read-more-link text-decoration-none mt-4 d-block">بیشتر درباره ما
+                                            بدانید
+                                            <i class="far fa-arrow-left ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade pt-60" id="tab-3" role="tabpanel">
+                            <div class="row justify-content-center align-items-center justify-content-around">
+                                <div class="col-lg-5">
+                                    <div class="feature-tab-info">
+                                        <h3> فن آوری پیشرفته </h3>
+                                        <p>به طور ذاتی همکاری شرکت های شرکت با متا خدمات دقیق را تحریک می کند.
+                                            آجر و کلیک های بهداشتی موازی.مهارت های رهبری با
+                                            همگرایی انقلابی به راحتی توسعه می یابد.</p>
+                                        <p>به طور مداوم سیستم های کسب و کار را بدون روش های تست برتر بازپرداخت می کند
+                                            معمار مرکزی محور مرکز برای پیشرونده راه حل های منبع باز. </p>
+                                        <a href="about-us.html"
+                                           class="read-more-link text-decoration-none mt-4 d-block">بیشتر درباره ما
+                                            بدانید
+                                            <i class="far fa-arrow-left ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <img src="{% static 'assets/img/screen/widget-11.png' %}" alt="feature tab"
+                                         class="img-fluid mt-4 mt-lg-0 mt-xl-0">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--feature tab section end-->
+
+    <!--why chose use section start-->
+    <section class="feature-section-two ptb-120">
+        <div class="container">
+            <div class="row align-items-center justify-content-lg-between justify-content-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="feature-content-wrap">
+                        <div class="section-heading">
+                            <h2>ما کارشناسان توسعه در تمام فن آوری ها هستیم</h2>
+                            <p>به سرعت کانال های کاربردی را با معماری چند رشته ای تحریک می کند
+                                ساخت ساخت نوآوری استثنایی.</p>
+                        </div>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-start mb-4">
+                                <div class="icon-box bg-primary rounded me-4">
+                                    <i class="fas fa-bezier-curve text-white"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <h3 class="h5">پیکسل پرفکت دیزاین</h3>
+                                    <p>به تدریج سیستم های گسترده ای را تقویت می کنند در حالیکه سهام سرمایه گذاری شده است
+                                        مهار وبسایت وب سایت های مجازی را نصب کرد.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start mb-4">
+                                <div class="icon-box bg-danger rounded me-4">
+                                    <i class="fas fa-fingerprint text-white"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <h3 class="h5">طراحی مینیمال و مدرن</h3>
+                                    <p>به طور چشمگیری معیارهای پیشرفته را بدون خطا آزادانه مدیریت می کند
+                                        ساده سازی ساده سازی ضبط شده از لحاظ فنی
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start mb-4 mb-lg-0">
+                                <div class="icon-box bg-dark rounded me-4">
+                                    <i class="fas fa-headset text-white"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <h3 class="h5">24/7 پشتیبانی آنلاین رایگان</h3>
+                                    <p>روش های تست شفاف شفاف به صورت تعاملی
+                                        مهارت های
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-7">
+                    <div class="feature-img-wrap">
+                        <img src="{% static 'assets/img/feature-hero-img.svg' %}" alt="feature image"
+                             class="img-fluid rounded-custom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--why chose use section end-->
+
+    <!--why choose us section start-->
+    <section class="why-choose-us pt-60 pb-120">
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center align-items-center">
+                <div class="col-lg-5 col-md-7 order-1 order-lg-0">
+                    <div class="why-choose-img position-relative">
+                        <img src="{% static 'assets/img/feature-hero-img-2.svg' %}" class="img-fluid" alt="duel-phone">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-0 order-lg-1">
+                    <div class="why-choose-content">
+                        <div class="mb-32">
+                            <h2>ما انواع خدمات را به صورت نرم افزار اجرا می کنیم</h2>
+                            <p>مفهوم سازی مبتنی بر چند رسانه ای و سرمایه فکری بی سیم.به طور چشمگیری دستگیر می شود
+                                فن آوری های چشم انداز در حالی که ارزش تعاملی. </p>
+                        </div>
+                        <ul class="list-unstyled d-flex flex-wrap list-two-col">
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>رهبری فکر</li>
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>نام تجاری شخصی</li>
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>چشم انداز مدرن</li>
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>نرخ های بهتر</li>
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>نمایش موفقیت</li>
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>انطباق فروش</li>
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>مدیریت هوشمندانه</li>
+                            <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>برقراری ارتباط سریع
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--why choose us section end-->
+
+    <!--cat section start-->
+    <section class="cta-section bg-dark ptb-120 position-relative overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5 col-md-12">
+                    <div class="position-relative z-5">
+                        <h2>گزارش های عملی برای رشد کسب و کار شما</h2>
+                        <p>به راحتی کاربران مشتری محور را برای سناریوهای شفاف ارائه می دهند.منحصر به فرد تکامل یافته است
+                            مشارکت به جای رابط های متقابل پلت فرم.</p>
+                        <a href="#" class="btn btn-primary mt-4">اکنون شروع کنید</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="row align-items-center justify-content-center position-relative z-2">
+                        <div class="col-md-6">
+                            <div class="cta-card rounded-custom text-center shadow p-5 bg-white my-4">
+                                <h3 class="display-5 fw-bold">9/10</h3>
+                                <p class="mb-0">به طور کلی نمره رضایت مشتری ما</p>
+                            </div>
+                            <div class="cta-card rounded-custom text-center shadow p-5 bg-white my-4">
+                                <h3 class="display-5 fw-bold">15K+</h3>
+                                <p class="mb-0">مشتری خوشحال در سراسر جهان</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cta-card rounded-custom text-center shadow p-5 bg-white">
+                                <h3 class="display-5 fw-bold">95%</h3>
+                                <p class="mb-0">نمره رضایت مشتری مشتری ما</p>
+                            </div>
+                        </div>
+                        <div class="bg-circle rounded-circle position-absolute z--1">
+                            <img src="{% static 'assets/img/shape/blob.svg' %}" alt="feature image"
+                                 class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light left-48"></div>
+            <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning right-5"></div>
+        </div>
+    </section>
+    <!--cat section end-->
+
+    <!--our work process section start-->
+    <section class="work-process ptb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-6">
+                    <div class="section-heading text-center">
+                        <h4 class="h5 text-primary">پروسه</h4>
+                        <h2> ما فرایند کار ما را دنبال می کنیم </h2>
+                        <p>به راحتی خدمات تعاونی را از طریق برون سپاری مغناطیسی استفاده کنید.به طور پویا رشد ارزش
+                            عملکردی در حالی که تجارت الکترونیک دقیق.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center px-4 py-5 rounded-custom shadow-hover mb-4 mb-lg-0">
+                        <div class="process-icon border border-light bg-custom-light rounded-custom p-3">
+                            <span class="h2 mb-0 text-primary fw-bold">1</span>
+                        </div>
+                        <h3 class="h5">پژوهش</h3>
+                        <p class="mb-0"> به طور منحصر به فرد پیگیری ابتکارات قانع کننده گسترش یافته است. </p>
+                    </div>
+                </div>
+                <div class="dots-line first"></div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center px-4 py-5 rounded-custom shadow-hover mb-4 mb-lg-0">
+                        <div class="process-icon border border-light bg-custom-light rounded-custom p-3">
+                            <span class="h2 mb-0 text-primary fw-bold">2</span>
+                        </div>
+                        <h3 class="h5">طراحی</h3>
+                        <p class="mb-0"> به طور منحصر به فرد پیگیری ابتکارات قانع کننده گسترش یافته است. </p>
+                    </div>
+                </div>
+                <div class="dots-line first"></div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center px-4 py-5 rounded-custom shadow-hover mb-4 mb-lg-0 mb-md-0">
+                        <div class="process-icon border border-light bg-custom-light rounded-custom p-3">
+                            <span class="h2 mb-0 text-primary fw-bold">3</span>
+                        </div>
+                        <h3 class="h5">ساخت</h3>
+                        <p class="mb-0"> به طور منحصر به فرد پیگیری ابتکارات قانع کننده گسترش یافته است. </p>
+                    </div>
+                </div>
+                <div class="dots-line first"></div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center px-4 py-5 rounded-custom shadow-hover mb-0 mb-lg-0 mb-md-0">
+                        <div class="process-icon border border-light bg-custom-light rounded-custom p-3">
+                            <span class="h2 mb-0 text-primary fw-bold">4</span>
+                        </div>
+                        <h3 class="h5">تحویل</h3>
+                        <p class="mb-0"> به طور منحصر به فرد پیگیری ابتکارات قانع کننده گسترش یافته است. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--our work process section end-->
+
+    <!--testimonial section start-->
+    <section class="testimonial-section ptb-120 bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-content-center">
+                <div class="col-md-10 col-lg-6">
+                    <div class="section-heading text-center">
+                        <h4 class="h5 text-primary">توصیفات</h4>
+                        <h2>آنجه درباره ما میگویند</h2>
+                        <p> به طور پویا پیوند کل بازار با فناوری کلیک و ملات را برای داده های قانع کننده برای بازارهای
+                            پیشرفته آغاز کنید. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="position-relative w-100">
+                        <div class="swiper-container testimonialSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
+                                    <img src="{% static 'assets/img/testimonial/quotes-dot.svg' %}" alt="quotes"
+                                         width="100" class="img-fluid position-absolute right-0 top-0 z--1 p-3">
+                                    <div class="d-flex mb-32 align-items-center">
+                                        <img src="{% static 'assets/img/testimonial/1.jpg' %}"
+                                             class="img-fluid me-3 rounded" width="60" alt="user">
+                                        <div class="author-info">
+                                            <h6 class="mb-0">جناب راپون اوبری</h6>
+                                            <small>موسس و مدیر آمارا در هربز</small>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <h6>بهترین قالبی که میتوانید داشته باشید</h6>
+                                        در سراسر جهان طرح های بلندمدت بالا در سراسر جهان با تجارت الکترونیک متمایز
+                                        زیرساخت های متقاطع رسانه ای به جای اخلاق
+                                    </blockquote>
+                                    <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                    <img src="{% static 'assets/img/testimonial/quotes.svg' %}" alt="quotes"
+                                         class="position-absolute left-0 bottom-0 z--1 ps-4 pb-4">
+                                </div>
+                                <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
+                                    <img src="{% static 'assets/img/testimonial/quotes-dot.svg' %}" alt="quotes"
+                                         width="100" class="img-fluid position-absolute right-0 top-0 z--1 p-3">
+                                    <div class="d-flex mb-32 align-items-center">
+                                        <img src="{% static 'assets/img/testimonial/3.jpg' %}"
+                                             class="img-fluid me-3 rounded" width="60" alt="user">
+                                        <div class="author-info">
+                                            <h6 class="mb-0">اوبری آر</h6>
+                                            <small>مدیر هربز</small>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <h6>اولین ورژن شگفت انگیز بود</h6>
+                                        به طور پویا توانایی های هسته ای نوآورانه را با بهترین موثر ایجاد می کند
+                                        اقدامات ترویج زیرساخت های نوآورانه.
+                                    </blockquote>
+                                    <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                    <img src="{% static 'assets/img/testimonial/quotes.svg' %}" alt="quotes"
+                                         class="position-absolute left-0 bottom-0 z--1 ps-4 pb-4">
+                                </div>
+                                <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
+                                    <img src="{% static 'assets/img/testimonial/quotes-dot.svg' %}" alt="quotes"
+                                         width="100" class="img-fluid position-absolute right-0 top-0 z--1 p-3">
+                                    <div class="d-flex mb-32 align-items-center">
+                                        <img src="{% static 'assets/img/testimonial/2.jpg' %}"
+                                             class="img-fluid me-3 rounded" width="60" alt="user">
+                                        <div class="author-info">
+                                            <h6 class="mb-0">جناب راپون اوبری</h6>
+                                            <small>موسس و مدیر</small>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <h6>قالب کیوتی عالی است</h6>
+                                        مذاکره مناسب طاقچه های تعاملی به جای موضوع راهبردی موازی ، مناطق پیوند کل برتر
+                                        را انکوباتور می کند.
+                                    </blockquote>
+                                    <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                    <img src="{% static 'assets/img/testimonial/quotes.svg' %}" alt="quotes"
+                                         class="position-absolute left-0 bottom-0 z--1 ps-4 pb-4">
+                                </div>
+                                <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
+                                    <img src="{% static 'assets/img/testimonial/quotes-dot.svg' %}" alt="quotes"
+                                         width="100" class="img-fluid position-absolute right-0 top-0 z--1 p-3">
+                                    <div class="d-flex mb-32 align-items-center">
+                                        <img src="{% static 'assets/img/testimonial/4.jpg' %}"
+                                             class="img-fluid me-3 rounded" width="60" alt="user">
+                                        <div class="author-info">
+                                            <h6 class="mb-0">جان دانی</h6>
+                                            <small>موسس و مدیر </small>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <h6>بهترین قالب برای ساس</h6>
+                                        به طور پویا توانایی های هسته ای نوآورانه را با بهترین موثر ایجاد می کند
+                                        اقدامات ترویج زیرساخت های نوآورانه.
+                                    </blockquote>
+                                    <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                    <img src="{% static 'assets/img/testimonial/quotes.svg' %}" alt="quotes"
+                                         class="position-absolute left-0 bottom-0 z--1 ps-4 pb-4">
+                                </div>
+                                <div class="swiper-slide border border-2 p-5 rounded-custom position-relative">
+                                    <img src="{% static 'assets/img/testimonial/quotes-dot.svg' %}" alt="quotes"
+                                         width="100" class="img-fluid position-absolute right-0 top-0 z--1 p-3">
+                                    <div class="d-flex mb-32 align-items-center">
+                                        <img src="{% static 'assets/img/testimonial/5.jpg' %}"
+                                             class="img-fluid me-3 rounded" width="60" alt="user">
+                                        <div class="author-info">
+                                            <h6 class="mb-0">رانو موندیل</h6>
+                                            <small>لید دولوپر</small>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <h6> بدون شک خوب است! </h6>
+                                        به سرعت بازارهای الکترونیکی مشتری مدار و فرآیندهای قابل نگهداری را مهندسی کنید
+                                    </blockquote>
+                                    <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                    <img src="{% static 'assets/img/testimonial/quotes.svg' %}" alt="quotes"
+                                         class="position-absolute left-0 bottom-0 z--1 ps-4 pb-4">
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-button-next"></span>
+                        <span class="swiper-button-prev"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonial section end-->
+
+    <!--cat subscribe start-->
+    <section class="cta-subscribe bg-dark ptb-120 position-relative overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-8">
+                    <div class="subscribe-info-wrap text-center position-relative z-2">
+                        <div class="section-heading">
+                            <h4 class="h5 text-warning">بیایید امتحان کنیم دریافت پشتیبانی رایگان</h4>
+                            <h2> شروع آزمایشی رایگان 14 روزه </h2>
+                            <p>ما می توانیم به شما کمک کنیم تا وب سایت رویای خود را برای درآمد ایجاد کنید.</p>
+                        </div>
+                        <div class="form-block-banner mw-60 m-auto mt-5">
+                            <form id="email-form2" name="email-form" class="subscribe-form d-flex">
+                                <input type="email" class="form-control me-2" name="Email" data-name="Email"
+                                       placeholder="ایمیل شما" id="Email2" required="">
+                                <input type="submit" value="پیوستن به ما!" data-wait="صبر کنید ..."
+                                       class="btn btn-primary">
+                            </form>
+                        </div>
+                        <ul class="nav justify-content-center subscribe-feature-list mt-3">
+                            <li class="nav-item">
+                                <span><i class="fad fa-dot-circle text-primary me-2"></i>به روز رسانی خود را دریافت کنید</span>
+                            </li>
+                            <li class="nav-item">
+                                <span><i class="fad fa-dot-circle text-primary me-2"></i>اطلاع رسانی محصول جدید</span>
+                            </li>
+                            <li class="nav-item">
+                                <span><i class="fad fa-dot-circle text-primary me-2"></i>آخرین اخبار</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
+            <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning left-5"></div>
+        </div>
+    </section>
+    <!--cat subscribe end-->
+
+    <!--integration section start-->
+    <section class="integration-section ptb-120">
+        <div class="container">
+            <div class="row align-items-center justify-content-lg-between">
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-heading">
+                        <h4 class="h5 text-primary">ادغام</h4>
+                        <h2> ما با شرکت نرم افزاری برتر همکاری می کنیم </h2>
+                        <p>به طور پویا دنبال همگرایی به جای روند 24/7.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="text-lg-end mb-5 mb-lg-0">
+                        <a href="integrations.html" class="btn btn-primary"> مشاهده تمام ادغام ها </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="integration-wrapper position-relative w-100">
+                        <!--animated shape start-->
+                        <ul class="position-absolute animate-element parallax-element shape-service z--1">
+                            <li class="layer" data-depth="0.03">
+                                <img src="{% static 'assets/img/shape/dot-dot-wave-shape.svg' %}" alt="shape"
+                                     class="img-fluid position-absolute color-shape-3">
+                            </li>
+                            <li class="layer" data-depth="0.03">
+                                <img src="{% static 'assets/img/color-shape/feature-3.svg' %}" alt="shape"
+                                     class="img-fluid position-absolute color-shape-3">
+                            </li>
+                        </ul>
+                        <!--animated shape end-->
+                        <ul class="integration-list list-unstyled mb-0">
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/airbnb.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/figma.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/facebook.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/sales-force.png' %}" alt="integration"
+                                         class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/atlassian.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/dropbox-2.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/dynamic-365.png' %}" alt="integration"
+                                         class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/erecruiter.png' %}" alt="integration"
+                                         class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/evernote.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/google-icon.png' %}" alt="integration"
+                                         class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/slack.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/google-analytics.png' %}" alt="integration"
+                                         class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/google-drive.png' %}" alt="integration"
+                                         class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/hubspot.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/instagram.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/linkedin.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/mailchimp.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="{% static 'assets/img/integations/marekto.png' %}" alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">نام برند</h6>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--integration section end-->
+
+    <!--home blog start-->
+    <section class="home-blog-section ptb-120 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-heading text-center">
+                        <h4 class="text-primary h5">بلاگ</h4>
+                        <h2>آخرین اخبار و به روز رسانی ما</h2>
+                        <p>به طور خلاصه، به حداکثر رساندن هزینه های موثر هزینه های موثرتر تیم های تولید شده از طریق سهام
+                            سرمایه گذاری شده از طریق مزایای سفارشی.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-article rounded-custom mb-4 mb-lg-0">
+                        <a href="blog-single.html" class="article-img">
+                            <img src="{% static 'assets/img/blog/blog-1.jpg' %}" alt="article" class="img-fluid">
+                        </a>
+                        <div class="article-content p-4">
+                            <div class="article-category mb-4 d-block">
+                                <a href="javascript:;" class="d-inline-block text-dark badge bg-warning-soft">طراحی</a>
+                            </div>
+                            <a href="blog-single.html">
+                                <h2 class="h5 article-title limit-2-line-text">آیا واقعا مفهوم ارزش محصول را درک می
+                                    کنید؟</h2>
+                            </a>
+                            <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای
+                                صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود
+                                ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+
+                            <a href="javascript:;">
+                                <div class="d-flex align-items-center pt-4">
+                                    <div class="avatar">
+                                        <img src="{% static 'assets/img/testimonial/6.jpg' %}" alt="avatar" width="40"
+                                             class="img-fluid rounded-circle me-3">
+                                    </div>
+                                    <div class="avatar-info">
+                                        <h6 class="mb-0 avatar-name">جان مری</h6>
+                                        <span class="small fw-medium text-muted">24 مهر، 1400</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-article rounded-custom mb-4 mb-lg-0">
+                        <a href="blog-single.html" class="article-img">
+                            <img src="{% static 'assets/img/blog/blog-2.jpg' %}" alt="article" class="img-fluid">
+                        </a>
+                        <div class="article-content p-4">
+                            <div class="article-category mb-4 d-block">
+                                <a href="javascript:;" class="d-inline-block text-dark badge bg-primary-soft">مشتری</a>
+                            </div>
+                            <a href="blog-single.html">
+                                <h2 class="h5 article-title limit-2-line-text">چرا جوامع به شما کمک می کنند محصولات بهتر
+                                    را برای کسب و کار خود بسازید</h2>
+                            </a>
+                            <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای
+                                صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود
+                                ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+
+                            <a href="javascript:;">
+                                <div class="d-flex align-items-center pt-4">
+                                    <div class="avatar">
+                                        <img src="{% static 'assets/img/testimonial/1.jpg' %}" alt="avatar" width="40"
+                                             class="img-fluid rounded-circle me-3">
+                                    </div>
+                                    <div class="avatar-info">
+                                        <h6 class="mb-0 avatar-name">ورونیکا برد</h6>
+                                        <span class="small fw-medium text-muted">24 مهر، 1400</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-article rounded-custom mb-4 mb-lg-0 mb-md-0">
+                        <a href="blog-single.html" class="article-img">
+                            <img src="{% static 'assets/img/blog/blog-3.jpg' %}" alt="article" class="img-fluid">
+                        </a>
+                        <div class="article-content p-4">
+                            <div class="article-category mb-4 d-block">
+                                <a href="javascript:;" class="d-inline-block text-dark badge bg-danger-soft">توسعه</a>
+                            </div>
+                            <a href="blog-single.html">
+                                <h2 class="h5 article-title limit-2-line-text">چرا جوامع به شما کمک می کنند محصولات بهتر
+                                    را بسازید</h2>
+                            </a>
+                            <p class="limit-2-line-text">جامعه به دو واقعیت موازی تقسیم می شود.در یک واقعیت، شما دارای
+                                صعود و فرصت بی نهایت هستید.در واقعیت دیگر، شما همچنان به دیدن شکاف بین سطح زندگی خود
+                                ادامه خواهید داد و کسانی که در بالا رشد می کنند بیشتر و بیشتر رشد می کنند</p>
+
+                            <a href="javascript:;">
+                                <div class="d-flex align-items-center pt-4">
+                                    <div class="avatar">
+                                        <img src="{% static 'assets/img/testimonial/3.jpg' %}" alt="avatar" width="40"
+                                             class="img-fluid rounded-circle me-3">
+                                    </div>
+                                    <div class="avatar-info">
+                                        <h6 class="mb-0 avatar-name">مارتین گیلبرت</h6>
+                                        <span class="small fw-medium text-muted">24 مهر، 1400</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="text-center mt-5">
+                    <a href="blog.html" class="btn btn-primary">مشاهده همه مقالات</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home blog end-->
+
+
+    </body>
+
+{% endblock content %}
