@@ -13,6 +13,10 @@ class TeamView(TemplateView):
     template_name = "team.html"
 
 
+class RequestDemoView(TemplateView):
+    template_name = "request-demo.html"
+
+
 def product_view(request):
     products = Product.objects.all()
     context = {

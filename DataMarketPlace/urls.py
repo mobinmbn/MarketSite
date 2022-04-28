@@ -18,11 +18,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from Product.views import TeamView, IndexView
+from Product.views import TeamView, IndexView, RequestDemoView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", IndexView.as_view(), name='index'),
     path("team", TeamView.as_view(), name='team'),
+    path("request", RequestDemoView.as_view(), name='request demo'),
     path('', include('Product.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
